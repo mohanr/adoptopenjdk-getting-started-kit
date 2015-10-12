@@ -11,6 +11,7 @@ These tests are typically in the nanosecond range with thousands of executions. 
 * [http://daniel.mitterdorfer.name/articles/2014/benchmarking-hello-jmh/](http://daniel.mitterdorfer.name/articles/2014/benchmarking-hello-jmh/)
 * [http://daniel.mitterdorfer.name/articles/2014/benchmarking-hello-jmh/](http://daniel.mitterdorfer.name/articles/2014/benchmarking-hello-jmh/)
 * [http://shipilev.net/blog/2014/exceptional-performance/](http://shipilev.net/blog/2014/exceptional-performance/)
+* [http://psy-lob-saw.blogspot.in/2013/04/writing-java-micro-benchmarks-with-jmh.html](http://psy-lob-saw.blogspot.in/2013/04/writing-java-micro-benchmarks-with-jmh.html)
 
 
 ## Known issues
