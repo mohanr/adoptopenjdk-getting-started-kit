@@ -83,3 +83,19 @@ R summary
 
 
 ![Alt text](ggplotgc.png)
+
+Note :
+
+The powerful `dplyr` package is used to parse.
+
+`
+
+      library(stringr)
+    library(dplyr)
+
+    data <- read.table("D:\\jmh\\jmh.txt",sep="\t")
+
+    final <-data %>%
+    	    select(V1) %>%
+    		filter(grepl("^Iteration", V1)) %>%  
+            mutate(V1 = str_extract(V1, "\\d+\\.\\d*"))`
