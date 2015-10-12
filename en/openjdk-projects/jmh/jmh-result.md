@@ -1,6 +1,6 @@
 ##JMH result
 
-Execute the benchmark
+Execute the benchmark. Some of the JMH command-line options are described [here](http://psy-lob-saw.blogspot.in/2013/04/writing-java-micro-benchmarks-with-jmh.html) 
 
 `
 java -XX:-TieredCompilation -Dbenc hmark.n=10000 -jar target/microbenchmarks.jar -wi 5 -w 50ms -r 50ms -i 20 -f 1 " .*CollectionComparison.*"
@@ -126,4 +126,3 @@ java -XX:-TieredCompilation -Dbenc hmark.n=10000 -jar target/microbenchmarks.jar
         <td>us/op</td>
     </tr>
 </table>
-
